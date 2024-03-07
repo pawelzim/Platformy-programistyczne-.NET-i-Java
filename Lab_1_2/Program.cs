@@ -1,4 +1,8 @@
-﻿namespace Lab_1_2
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("UnitTestsLab_1_2")]
+
+namespace Lab_1_2
 {
     internal class Program
     {
