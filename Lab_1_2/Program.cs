@@ -8,8 +8,13 @@ namespace Lab_1_2
     {
         static void Main(string[] args)
         {
-            Console.Write("Podaj liczbe przedmiotow: ");
-            int numberOfItems = Convert.ToInt32(Console.ReadLine());
+            int numberOfItems = -1;
+
+            while (numberOfItems < 0)
+            {
+                Console.Write("Podaj liczbe przedmiotow: ");
+                numberOfItems = Convert.ToInt32(Console.ReadLine());
+            }
 
             Console.Write("Podaj ziarno losowania: ");
             int seed = Convert.ToInt32(Console.ReadLine());
