@@ -32,7 +32,7 @@ namespace Lab_1_2
 
         public override string ToString()
         {
-            return "Numer: " + number + " Wartosc: " + value + " Waga: " + weight + " Współczynnik: " + ratio;
+            return "Numer: " + number + " Wartość: " + value + " Waga: " + weight + " Stosunek: " + ratio.ToString("0.00");
         }
     }
 }

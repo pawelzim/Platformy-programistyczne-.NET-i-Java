@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("UnitTestsLab_1_2")]
+[assembly: InternalsVisibleTo("UnitTestsLab_1_2"), InternalsVisibleTo("WinFormsApp1")]
 
 namespace Lab_1_2
 {
