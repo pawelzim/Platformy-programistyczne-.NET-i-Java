@@ -1,11 +1,20 @@
-﻿namespace Lab_1_2
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("UnitTestsLab_1_2"), InternalsVisibleTo("WinFormsApp1")]
+
+namespace Lab_1_2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Podaj liczbe przedmiotow: ");
-            int numberOfItems = Convert.ToInt32(Console.ReadLine());
+            int numberOfItems = -1;
+
+            while (numberOfItems < 0)
+            {
+                Console.Write("Podaj liczbe przedmiotow: ");
+                numberOfItems = Convert.ToInt32(Console.ReadLine());
+            }
 
             Console.Write("Podaj ziarno losowania: ");
             int seed = Convert.ToInt32(Console.ReadLine());

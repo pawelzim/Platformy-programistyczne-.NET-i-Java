@@ -13,16 +13,26 @@ namespace Lab_1_2
         public double weight { get; }
         public double ratio { get; }
 
-        public Item(int nr, double val, double weigh) {
-            number = nr;
-            value = val;
-            weight = weigh;
-            ratio = value / weigh;
+        public Item(int nr = 0, double val = 0, double weigh = 0) {
+            if (nr < 0 || val < 0 || weigh < 0)
+            {
+                number = 0;
+                value = 0;
+                weight = 0;
+                ratio = 0;
+            }
+            else
+            {
+                number = nr;
+                value = val;
+                weight = weigh;
+                ratio = value / weigh;
+            }
         }
 
         public override string ToString()
         {
-            return "Numer: " + number + " Wartosc: " + value + " Waga: " + weight + " Współczynnik: " + ratio;
+            return "Numer: " + number + " Wartość: " + value + " Waga: " + weight + " Stosunek: " + ratio.ToString("0.00");
         }
     }
 }

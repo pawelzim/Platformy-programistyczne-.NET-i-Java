@@ -12,3 +12,4 @@ C:\Users\pawel\OneDrive\Pulpit\Projekty\Visual Studio projects\C#\Platformy prog
 C:\Users\pawel\OneDrive\Pulpit\Projekty\Visual Studio projects\C#\Platformy programistyczne .Net i Java\Lab_1_2\obj\Debug\net8.0\Lab_1_2.pdb
 C:\Users\pawel\OneDrive\Pulpit\Projekty\Visual Studio projects\C#\Platformy programistyczne .Net i Java\Lab_1_2\obj\Debug\net8.0\Lab_1_2.genruntimeconfig.cache
 C:\Users\pawel\OneDrive\Pulpit\Projekty\Visual Studio projects\C#\Platformy programistyczne .Net i Java\Lab_1_2\obj\Debug\net8.0\ref\Lab_1_2.dll
+C:\Users\pawel\OneDrive\Pulpit\Projekty\Visual Studio projects\C#\Platformy programistyczne .Net i Java\Lab_1_2\obj\Debug\net8.0\Lab_1_2.sourcelink.json
